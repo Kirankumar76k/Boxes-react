@@ -1,0 +1,61 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+}
+.bg-container {
+  height: 100vh;
+  background-size: cover;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 32px;
+  font-family: roboto;
+  padding: 0px;
+}
+.card-container {
+  display: flex;
+  padding: 20px;
+  align-items: space-around;
+  align-items: flex-end;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Bree Serif";
+  margin: 20px;
+}
+.card1 {
+  height: 100px;
+  width: 100px;
+
+  background-color: #fbbf24;
+}
+.card2 {
+  height: 200px;
+  width: 200px;
+  background-color: #38bdf8;
+}
+.card3 {
+  height: 300px;
+  width: 300px;
+  background-color: #ec4899;
+}
+@media screen and (max-width: 767px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: space-around;
+    align-items: center;
+  }
+  .heading {
+    font-size: 48px;
+  }
+}
